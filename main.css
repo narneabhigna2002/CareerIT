@@ -1,0 +1,100 @@
+.bg{
+    height: 489px;
+    justify-content: space-between;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    width: 100%;
+  
+    position: absolute;
+    top: 148px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom-style: solid;
+    border: none;
+
+}
+
+.details{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 63px;
+    margin-top: 140px;
+}
+
+.course-button{
+    color: #FFFFFF;
+    background-color: #0A556B;
+    margin-left:65px;
+}
+
+.contactus-button{
+    color: #0A556B;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.contactus-button,
+.course-button{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: none;
+    padding:16px 28px;
+    border-radius: 4px;
+}
+
+
+.white-bg{
+    position: relative;
+    top: 636px;
+    background-color: #FFFFFF;
+    padding-top: 700px ;
+    padding-bottom: 250px;
+}
+
+.blue-bg{
+    position: absolute;
+    top: 480px;
+    left: 65px;
+    right: 65px;
+    z-index: 3;
+
+    padding: 180px 90px 100px 72px;
+    border-radius: 10px;
+}
+
+.blue-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+
+    position: absolute;
+    top:40px;
+    bottom: 40px;
+    z-index: 5;
+    text-align: center;
+}
+
+.green-bg,.red-bg,.blue-bg1,.pink-bg,.red1-bg{
+    padding: 10px 8px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    display: block;
+
+}
+
+.hat,.knowledge,.internship,.education,.book{
+    width: 80px;
+    margin: 0px 37px;
+}
+
+
+
+
+

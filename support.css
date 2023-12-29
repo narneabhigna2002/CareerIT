@@ -1,0 +1,67 @@
+.city{
+    height: 660px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:600;
+  
+    position: absolute;
+    top: 2370px;
+    left: 0;
+    right: 0;
+}
+
+.blue-background{
+    margin-top: 60px;
+    margin-left: 700px;
+    margin-right: 51px;
+}
+
+.webuild{
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-left: 20px;
+}
+
+.youenter{
+    color: #ffffff;
+}
+
+.bluebg-interior{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.file-div1{
+    display: inline-block;
+}
+
+.file{
+    height: 76.6px;
+    width: 76.6px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+
+.trainings-div{
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+
+.trainings-about{
+    margin-top: 0px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}

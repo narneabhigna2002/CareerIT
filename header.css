@@ -1,0 +1,116 @@
+body{
+    height: 4300px;
+    background-color: white;
+}
+
+.header{height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight:600;
+  
+    position: fixed;
+    top: 48px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  
+    background-color: white;
+    border-bottom-color: rgb(228, 228, 228);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    
+
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin-right: 100px;
+    margin-left: 46.6px;
+    padding : 11px 16px 11px 15px;
+}
+
+.right-section{
+    flex: 1;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0px;
+    margin-right: 20px;
+}
+
+.home-section{
+    flex:1;
+    color: #EF3317;
+    padding: 29px 10px ;
+    cursor: pointer;
+}
+
+.home-section:hover{
+    color: #0A556B;
+    transition: color 0.5s ease;
+}
+.about-section,
+.courses-section,
+.trainings-section,
+.career-section,
+.batches-section,
+.contact-section,
+.register-section{
+    flex:1;
+    color: #0A556B;
+    padding: 29px 10px ;
+    cursor: pointer;
+}
+
+.about-section {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about-section .tooltiptext {
+    visibility: hidden;
+    width: 205px;
+    height: 190px;
+    background-color: white;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    margin-top: 33px;
+    padding-top: 20px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    border-top:2px solid #0A556B;
+  }
+  
+  .about-section:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .line:hover{
+    position: relative;
+    animation-name: moved;
+    animation-duration: 1s;
+    color: #0A556B;
+    border-left: 2px solid #0A556B;
+
+    padding-left:5px ;
+    transition: all 0.15s;
+  }
+
+  @keyframes moved{
+    0% {left: 0px; top: 0px;}
+    100%{left:10px; top:0px}
+  }
+

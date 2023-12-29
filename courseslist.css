@@ -1,0 +1,85 @@
+.courseshape{
+    height: 870px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:600;
+  
+    position: absolute;
+    top: 1500px;
+    left: 0;
+    right: 0;
+    border-radius: 2px;
+    
+    background: #f1f0f0;
+}
+
+.our-courses{
+    margin-left: 63px;
+    font-size: 18px;
+    font-family: "Montserrat", Sans-serif;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.trending-courses{
+    margin-top: 0px;
+    margin: 10px 0 0 63px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.courserow{
+    margin:63px 63px 0 62px;
+    
+}
+
+.courserow-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.java,.se-java,.azure,.azdevops,
+.devops,.ds,.react,.aws{
+    width: 261px;
+    height: 174px;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    
+}
+
+.cr1{
+    height: 190px;
+}
+
+.java-div,.se-div,.azure-div,.azuredev-div,
+.devops-div,.ds-div,.react-div,.aws-div{
+    padding: 20px;
+    font-size: 18px;
+    background-color: white;
+    padding-right: 19px;
+    border-radius: 2px;
+    margin-top: -4px;
+}
+
+.courserow-2{
+    margin: 27px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.allcourses-button{
+    padding: 17px 30px;
+    background-color: #084C8D;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    border: none;
+    margin-left: 500px ;
+    margin-top: 30px;
+}
+

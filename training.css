@@ -1,0 +1,49 @@
+.about-training{
+    position: absolute;
+    top: 3350px;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+}
+
+.trainingfullpage{
+    margin:60px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.training-1{
+    width: 50%;
+    margin-right: 90px;
+}
+
+.images-3{
+    width: 480px;
+    height: 445px;
+    margin-right: 90px;
+}
+
+.question{
+    color: #ef3317;
+    font-weight: 100;
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    margin: 0 0 15px;
+}
+
+.answer{
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    margin-bottom: 24px;
+    color: #505050;
+    margin: 0 0 1.5em;
+    padding: 0;
+    line-height: 26px;
+}
+
+.training-2{
+    margin-top:60px;
+}

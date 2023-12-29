@@ -1,0 +1,35 @@
+.client-container{
+    position: absolute;
+    top: 4495px;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+}
+
+.clientbody{
+    margin: 30px 90px;
+    margin-bottom: 60px;
+}
+
+.ourclients-div{
+    text-align: center;
+}
+
+.ourclients{
+    font-size: 48px;
+    font-family: "Montserrat", Sans-serif;
+    color: #23252A;
+    font-weight: 700;
+    line-height: 58px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+
+}
+
+.clientpics-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}

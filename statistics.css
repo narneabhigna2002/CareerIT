@@ -1,0 +1,83 @@
+.sand{
+    height: 100%;
+    left: 0;
+    right: 0;
+    
+  
+    background-attachment: fixed;
+}
+
+/* .transparent{
+    height: 200px;
+    background-color: #0C0C0CF2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.7;
+} */
+
+.sandarea{
+    height: 325.5px;
+    position: absolute;
+    top: 3030px;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(0,0,0,0.6);
+    /* background-color: #0C0C0CF2;
+    opacity: 0.7; */
+}
+
+.statistic-details{
+    height: 125.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    text-align: center;
+
+}
+
+.thirtyplus{
+    margin-left: 70px;
+    
+
+    height: 165px;
+    width: 285px;
+}
+
+.thirty{
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 2.4em;
+}
+
+.plus{
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 2.4em;
+}
+
+.onlineCourses{
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-align: center;
+}
+
+.hundredpercent{
+    margin-right: 70px;
+
+    height: 165px;
+    width: 285px;
+}
